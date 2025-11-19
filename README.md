@@ -5,7 +5,7 @@
 [![pulls](https://img.shields.io/github/issues-pr/fennicahub/annif)](https://github.com/fennicahub/annif/pulls)
 
 
-The `annif` package provides tools to access the serivice for interoperable thesauri, ontologies and classification schemes for different subject areas. 
+The `annif` package provides tools to access the serivice for an open source tool for automated subject indexing.
 
 ## Installation instructions
 
