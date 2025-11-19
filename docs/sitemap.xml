@@ -1,0 +1,15 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/articles/vignette.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/annif_batch_indexing.html</loc></url>
+<url><loc>/reference/annif_subject_indexing.html</loc></url>
+<url><loc>/reference/get_annif_api_info.html</loc></url>
+<url><loc>/reference/get_annif_project_info.html</loc></url>
+<url><loc>/reference/get_annif_projects.html</loc></url>
+<url><loc>/reference/get_annif_vocabulary.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+</urlset>
+

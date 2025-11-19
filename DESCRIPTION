@@ -1,0 +1,32 @@
+Package: annif
+Title: Access the 'annif' API
+Version: 0.1.1
+Date: 2025-11-19
+Authors@R: c(
+    person("Akewak", "Jeba", , "akjeba@utu.fi", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0007-1347-7552")),
+    person("Leo", "Lahti", , "leo.lahti@iki.fi", role = "aut",
+           comment = c(ORCID = "0000-0001-5537-637X"))
+  )
+Maintainer: Akewak Jeba <akjeba@utu.fi>  
+Description: Access and retrieve 'Finto AI' API <https://api.annif.fi/>, a service for automated subject indexing based on artificial intelligence based on annif tool.
+License: BSD_2_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tibble,
+    httr,
+    jsonlite,
+    lubridate,
+Suggests: 
+    testthat (>= 3.0.0),
+    rmarkdown,
+    knitr
+URL: https://fennicahub.github.io/annif/
+BugReports: https://github.com/fennicahub/annif/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Depends: 
+    R (>= 3.5)

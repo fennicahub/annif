@@ -1,0 +1,50 @@
+---
+title: "Introduction to annif"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to annif}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+# Introduction
+
+[annif](https://ai.finto.fi/) is a a service for automated subject indexing based on artificial intelligence based on annif tool. 
+
+To Suggest subjects for a given text we use the following.
+
+```{r message = FALSE, warning = FALSE, eval = FALSE}
+library(annif)
+suggestions <- annif_subject_indexing(project_id = "yso-en",
+text = "Jean Sibelius orchestra music and composer")
+print(suggestions)
+```
+
+To get a list of projects we use 
+
+```{r message = FALSE, warning = FALSE, eval = FALSE}
+library(annif)
+projects <- get_annif_projects()
+print(projects)
+```
+
+To Suggest subjects for a batch (maximum 32 docs) 
+ 
+```{r message = FALSE, warning = FALSE, eval = FALSE}
+library(annif)
+texts <- c(
+  "A quick brown fox jumped over the lazy dog.",
+  "Climate change and global warming effects on Arctic ecosystems.",
+  "Machine learning applications in healthcare diagnostics."
+  )
+results <- annif_batch_indexing(
+project_id = "yso-en",
+texts = texts,
+limit = 5
+)
+print(results)
+```
+
+
+
